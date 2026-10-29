@@ -1,9 +1,0 @@
-text = input('Введите текст: ')
-normalized = ' '.join(text.split())
-print(f'Исходная длина: {len(text)}')
-print(f'Новая длина: {len(normalized)}')
-print(f'Нормализованный текст: {normalized}')
-print(f'Количество слов: {len(normalized.split())}')
-
-
-
